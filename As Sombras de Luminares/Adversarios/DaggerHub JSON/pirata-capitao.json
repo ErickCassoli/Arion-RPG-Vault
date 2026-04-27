@@ -1,0 +1,44 @@
+{
+  "id": "pirata-capitao-livro",
+  "slug": "pirata-capitao",
+  "nome": "Pirata Capitão",
+  "tipo": "lider",
+  "patamar": 1,
+  "descricao": "Um líder carismático e impiedoso, comandante de sua tripulação, sabre na mão e olhar de quem já matou muito.",
+  "motivacoes": ["comandar", "saquear", "abordar em grupo", "fugir no bote se a maré virar"],
+  "dificuldade": 14,
+  "limiarMaior": 7,
+  "limiarGrave": 14,
+  "pv": 7,
+  "pf": 5,
+  "atq": 4,
+  "ataques": [
+    { "nome": "Sabre de Abordagem", "alcance": "corpo a corpo", "dano": "1d12+2 fís" }
+  ],
+  "experiencias": [
+    { "nome": "Comandante", "bonus": 2 },
+    { "nome": "Marinheiro", "bonus": 3 }
+  ],
+  "habilidades": [
+    {
+      "nome": "Espadachim",
+      "tipo": "passiva",
+      "descricao": "quando o capitão marcar 2 PV ou menos por um ataque corpo a corpo, o atacante marca 1 Ponto de Fadiga — o capitão contra-ataca no giro da lâmina."
+    },
+    {
+      "nome": "Reforços",
+      "tipo": "acao",
+      "descricao": "gaste 1 Ponto de Fadiga (1/cena). Invoca uma horda de piratas saqueadores em alcance distante."
+    },
+    {
+      "nome": "Sem Prisioneiros",
+      "tipo": "acao",
+      "descricao": "gaste 1 Ponto de Medo. Escolha um alvo com 3+ piratas em corpo a corpo. O capitão inspira os piratas. Alvo faz CD Presença — falha: 1d4+1 Ponto de Fadiga; sucesso: 1 Ponto de Fadiga."
+    },
+    {
+      "nome": "Impulso",
+      "tipo": "reacao",
+      "descricao": "quando o capitão acertar um ataque contra um PC, você ganha 1 Ponto de Medo."
+    }
+  ]
+}

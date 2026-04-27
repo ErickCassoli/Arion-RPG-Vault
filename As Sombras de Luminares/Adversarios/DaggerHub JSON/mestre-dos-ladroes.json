@@ -1,0 +1,65 @@
+{
+  "id": "mestre-dos-ladroes",
+  "nome": "Mestre dos Ladrões",
+  "tipo": "lider",
+  "patamar": 2,
+  "descricao": "Operativo de alto nível a serviço da Facção dos Ecos — ou de alguém que a Facção contratou. Especializado em abordagens marítimas e roubo de carga. Seu objetivo era a carga do Vento de Aço: materiais alquímicos para o laboratório da Baixada.",
+  "motivacoes": [
+    "Coordenar do fundo",
+    "Garantir que o bote de fuga parta com a carga",
+    "Proteger empregadores a qualquer custo"
+  ],
+  "dificuldade": 14,
+  "limiarMaior": 12,
+  "limiarGrave": 18,
+  "pv": 14,
+  "pf": 5,
+  "atq": 6,
+  "ataques": [
+    {
+      "id": "a1",
+      "nome": "Espada de Abordagem",
+      "alcance": "corpo-a-corpo",
+      "dano": "1d10+4 fís"
+    }
+  ],
+  "experiencias": [
+    {
+      "id": "e1",
+      "nome": "Combate Naval",
+      "bonus": 4
+    },
+    {
+      "id": "e2",
+      "nome": "Intimidação",
+      "bonus": 3
+    },
+    {
+      "id": "e3",
+      "nome": "Planejamento Tático",
+      "bonus": 3
+    }
+  ],
+  "habilidades": [
+    {
+      "id": "h1",
+      "nome": "Recuar com a Carga",
+      "tipo": "reacao",
+      "descricao": "Ao atingir o Limiar Grave, move-se imediatamente para o porão arrastando um caixote. Se o grupo não o impedir (CD Agilidade 13), parte da carga sai pelo bote de fuga."
+    },
+    {
+      "id": "h2",
+      "nome": "Finta",
+      "tipo": "reacao",
+      "descricao": "Quando um ataque erra, contra-ataca imediatamente com +3, causando 1d6+3 fís. Uma vez por turno."
+    },
+    {
+      "id": "h3",
+      "nome": "Comandante de Abordagem",
+      "tipo": "passiva",
+      "descricao": "Ladrões do Porto aliados a alcance 3 têm +1 em todos os ataques enquanto o Mestre estiver de pé."
+    }
+  ],
+  "criadoEm": "2026-04-24T13:28:35.167379+00:00",
+  "atualizadoEm": "2026-04-24T13:28:35.167379+00:00"
+}

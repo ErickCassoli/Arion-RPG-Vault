@@ -1,0 +1,54 @@
+{
+  "id": "lobo",
+  "nome": "Lobo",
+  "tipo": "brutamonte",
+  "patamar": 1,
+  "descricao": "Predador oportunista encontrado nas estradas entre Luminares e Aldeia Velha. Ataca viajantes sozinhos ou grupos pequenos. Age em matilha e avalia a situação antes de morrer.",
+  "motivacoes": [
+    "Atacar o alvo isolado",
+    "Cercar em matilha",
+    "Fugir se intimidado"
+  ],
+  "dificuldade": 11,
+  "limiarMaior": 6,
+  "limiarGrave": 9,
+  "pv": 4,
+  "pf": 3,
+  "atq": 3,
+  "ataques": [
+    {
+      "id": "a1",
+      "nome": "Mordida",
+      "alcance": "corpo-a-corpo",
+      "dano": "1d6+1 fís"
+    }
+  ],
+  "experiencias": [
+    {
+      "id": "e1",
+      "nome": "Caça",
+      "bonus": 2
+    },
+    {
+      "id": "e2",
+      "nome": "Rastrear",
+      "bonus": 2
+    }
+  ],
+  "habilidades": [
+    {
+      "id": "h1",
+      "nome": "Derrubar",
+      "tipo": "acao",
+      "descricao": "Após uma mordida bem-sucedida, o alvo rola CD Força 11 ou fica Prostrado até o fim do próximo turno."
+    },
+    {
+      "id": "h2",
+      "nome": "Matilha",
+      "tipo": "passiva",
+      "descricao": "Se dois ou mais Lobos atacam o mesmo alvo no mesmo turno, o segundo ataque causa +1d4 de dano adicional."
+    }
+  ],
+  "criadoEm": "2026-04-24T13:28:35.167379+00:00",
+  "atualizadoEm": "2026-04-24T13:28:35.167379+00:00"
+}

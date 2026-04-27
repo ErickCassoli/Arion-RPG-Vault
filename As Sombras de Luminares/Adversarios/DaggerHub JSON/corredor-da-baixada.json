@@ -1,0 +1,59 @@
+{
+  "id": "corredor-da-baixada",
+  "nome": "Corredor da Baixada",
+  "tipo": "oportunista",
+  "patamar": 1,
+  "descricao": "Sentinela e mensageiro da Facção dos Ecos na Baixada de Luminares. Conhece cada beco, cada saída e cada ponto cego. Pago parcialmente em ECO — usa a droga para aumentar reflexos em perigo.",
+  "motivacoes": [
+    "Emboscar de surpresa",
+    "Lançar emboscada antes da investigação completar",
+    "Oferecer informação se capturado"
+  ],
+  "dificuldade": 13,
+  "limiarMaior": 8,
+  "limiarGrave": 12,
+  "pv": 6,
+  "pf": 3,
+  "atq": 4,
+  "ataques": [
+    {
+      "id": "a1",
+      "nome": "Faca Envenenada",
+      "alcance": "corpo-a-corpo",
+      "dano": "1d6+3 fís + 1 Estresse"
+    }
+  ],
+  "experiencias": [
+    {
+      "id": "e1",
+      "nome": "Furtividade",
+      "bonus": 4
+    },
+    {
+      "id": "e2",
+      "nome": "Conhecimento da Baixada",
+      "bonus": 3
+    },
+    {
+      "id": "e3",
+      "nome": "Veneno",
+      "bonus": 2
+    }
+  ],
+  "habilidades": [
+    {
+      "id": "h1",
+      "nome": "Escapar nas Sombras",
+      "tipo": "reacao",
+      "descricao": "Quando abaixo de metade do PV, tenta fugir pelos becos. O grupo rola CD Instinto 13 para perseguir; em falha, desaparece, mas pode alertar o laboratório."
+    },
+    {
+      "id": "h2",
+      "nome": "Filho da Baixada",
+      "tipo": "passiva",
+      "descricao": "Em qualquer área da Baixada, ignora terreno difícil e tem vantagem em Furtividade."
+    }
+  ],
+  "criadoEm": "2026-04-24T13:28:35.167379+00:00",
+  "atualizadoEm": "2026-04-24T13:28:35.167379+00:00"
+}

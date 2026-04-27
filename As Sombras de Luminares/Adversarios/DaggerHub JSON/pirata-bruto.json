@@ -1,0 +1,33 @@
+{
+  "id": "pirata-bruto-livro",
+  "slug": "pirata-bruto",
+  "nome": "Pirata Bruto",
+  "tipo": "brutamonte",
+  "patamar": 1,
+  "descricao": "Enorme, calejado, usa os próprios punhos como armas. Limpa o convés quando o capitão manda.",
+  "motivacoes": ["quebrar", "empurrar", "obedecer o capitão"],
+  "dificuldade": 13,
+  "limiarMaior": 8,
+  "limiarGrave": 15,
+  "pv": 5,
+  "pf": 3,
+  "atq": 1,
+  "ataques": [
+    { "nome": "Punhos Massivos", "alcance": "corpo a corpo", "dano": "2d6 fís" }
+  ],
+  "experiencias": [
+    { "nome": "Marinheiro", "bonus": 2 }
+  ],
+  "habilidades": [
+    {
+      "nome": "Espadachim",
+      "tipo": "passiva",
+      "descricao": "quando o bruto marcar 2 PV ou menos por um ataque corpo a corpo, o atacante marca 1 Ponto de Fadiga."
+    },
+    {
+      "nome": "Limpar o Convés",
+      "tipo": "acao",
+      "descricao": "ataque contra alvo em alcance muito próximo. Em sucesso, gaste 1 Ponto de Fadiga: o bruto se move até corpo a corpo, causa 3d4 fís, e empurra o alvo para alcance próximo (o PC cai no chão, Prostrado)."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "piratas-saqueadores-livro",
+  "slug": "piratas-saqueadores",
+  "nome": "Piratas Saqueadores",
+  "tipo": "horda",
+  "patamar": 1,
+  "hordaRatio": "3/PV",
+  "descricao": "Três por ponto de vida. Trabalham em bando, abordam em bando, caem em bando. Representam o grosso da tripulação.",
+  "motivacoes": ["saquear em bando", "seguir o capitão", "fugir se o bando quebrar"],
+  "dificuldade": 12,
+  "limiarMaior": 5,
+  "limiarGrave": 11,
+  "pv": 4,
+  "pf": 3,
+  "atq": 1,
+  "ataques": [
+    { "nome": "Sabre de Abordagem", "alcance": "corpo a corpo", "dano": "1d8+2 fís" }
+  ],
+  "experiencias": [
+    { "nome": "Marinheiro", "bonus": 3 }
+  ],
+  "habilidades": [
+    {
+      "nome": "Espadachim",
+      "tipo": "passiva",
+      "descricao": "quando a horda marcar 2 PV ou menos por um ataque corpo a corpo, o atacante marca 1 Ponto de Fadiga."
+    },
+    {
+      "nome": "Horda (1d4+1)",
+      "tipo": "passiva",
+      "descricao": "quando a horda marcar metade ou mais dos PV (2+ PV marcados), o ataque padrão passa a causar 1d4+1 fís em vez do valor original — o que sobra do bando é menos coordenado, mas ainda enxame."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "eco-vivo-boss",
+  "slug": "eco-vivo",
+  "nome": "Eco Vivo",
+  "tipo": "solo",
+  "patamar": 2,
+  "descricao": "O estágio terminal da dependência de ECO — uma tragédia ambulante saturada de magia instável.",
+  "motivacoes": ["atacar por ressonância mágica", "buscar o PC com mais magia", "não estratégia — só instinto"],
+  "dificuldade": 13,
+  "limiarMaior": 15,
+  "limiarGrave": 21,
+  "pv": 18,
+  "pf": 0,
+  "atq": 5,
+  "ataques": [
+    { "nome": "Pulso Luminoso", "alcance": "alcance médio", "dano": "1d10+4 mág" },
+    { "nome": "Toque de Dreno", "alcance": "corpo a corpo", "dano": "1d8+3 mág" }
+  ],
+  "habilidades": [
+    {
+      "nome": "Toque de Dreno — Cura",
+      "tipo": "passiva",
+      "descricao": "quando o Eco Vivo acerta Toque de Dreno, recupera 3 PV. O calor do toque suga vitalidade e deixa marcas que brilham por minutos."
+    },
+    {
+      "nome": "Aura de Instabilidade",
+      "tipo": "passiva",
+      "descricao": "no início de cada turno do GM, a presença do Eco Vivo gera 1 Ponto de Medo automaticamente. Todo PC a alcance 1 rola CD Presença 13 ou ganha 1 Ponto de Estresse."
+    },
+    {
+      "nome": "Sobrecarga",
+      "tipo": "passiva",
+      "descricao": "quando o Eco Vivo atinge 9 PV (uma vez), o corpo não consegue mais conter a magia acumulada — um pulso involuntário explode para fora. Gera 2 Pontos de Medo. Todos a alcance 2 rolam CD Acuidade 13 ou recebem 1d6+2 mág."
+    },
+    {
+      "nome": "Explosão Final",
+      "tipo": "passiva",
+      "descricao": "quando derrotado, o brilho se apaga em uma onda de luz silenciosa. Todos a alcance 2 rolam CD Instinto 14 ou ficam Ofuscados até o fim da cena."
+    },
+    {
+      "nome": "Foco Obsessivo",
+      "tipo": "acao",
+      "descricao": "gaste 2 Pontos de Medo. O Eco Vivo foca em um PC específico — ataca apenas esse por 2 rodadas, ignorando outros alvos."
+    },
+    {
+      "nome": "Saturação do Ambiente",
+      "tipo": "acao",
+      "descricao": "gaste 3 Pontos de Medo. As paredes ao redor começam a brilhar — o laboratório inteiro está saturado de ECO. Todo PC ganha 1 Ponto de Estresse e todo ataque mágico dentro do espaço causa +1 de dano."
+    }
+  ]
+}

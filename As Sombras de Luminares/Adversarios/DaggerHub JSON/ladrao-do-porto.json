@@ -1,0 +1,65 @@
+{
+  "id": "ladrao-do-porto",
+  "nome": "Ladrão do Porto",
+  "tipo": "oportunista",
+  "patamar": 1,
+  "descricao": "Operativo treinado da organização do Mestre dos Ladrões, especializado em abordagens marítimas. Sabe se mover em conveses molhados, subir cordas e atacar de posições elevadas. Profissional, não criminoso aleatório.",
+  "motivacoes": [
+    "Ocupar posições elevadas",
+    "Atacar à distância primeiro",
+    "Fugir pelo bote sem hesitar"
+  ],
+  "dificuldade": 13,
+  "limiarMaior": 8,
+  "limiarGrave": 12,
+  "pv": 6,
+  "pf": 3,
+  "atq": 4,
+  "ataques": [
+    {
+      "id": "a1",
+      "nome": "Faca de Arremesso",
+      "alcance": "médio",
+      "dano": "1d6+3 fís"
+    },
+    {
+      "id": "a2",
+      "nome": "Faca Corpo-a-Corpo",
+      "alcance": "corpo-a-corpo",
+      "dano": "1d6+2 fís"
+    }
+  ],
+  "experiencias": [
+    {
+      "id": "e1",
+      "nome": "Acrobacia Marítima",
+      "bonus": 3
+    },
+    {
+      "id": "e2",
+      "nome": "Furtividade",
+      "bonus": 2
+    },
+    {
+      "id": "e3",
+      "nome": "Arremesso",
+      "bonus": 2
+    }
+  ],
+  "habilidades": [
+    {
+      "id": "h1",
+      "nome": "Posição Elevada",
+      "tipo": "passiva",
+      "descricao": "Quando ataca de mastro, tolda ou qualquer posição mais alta que o alvo, causa +1d4 de dano adicional."
+    },
+    {
+      "id": "h2",
+      "nome": "Equilíbrio de Bordo",
+      "tipo": "passiva",
+      "descricao": "Ignora as CDs de movimento em convés em movimento. Nunca rola para manter equilíbrio no navio."
+    }
+  ],
+  "criadoEm": "2026-04-24T13:28:35.167379+00:00",
+  "atualizadoEm": "2026-04-24T13:28:35.167379+00:00"
+}

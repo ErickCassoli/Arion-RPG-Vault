@@ -1,0 +1,59 @@
+{
+  "id": "alquimista-do-culto",
+  "nome": "Alquimista do Culto",
+  "tipo": "assistente",
+  "patamar": 1,
+  "descricao": "Produtor e guarda do laboratório subterrâneo da Facção dos Ecos na Baixada. Não é fanático — é técnico. Entende a química da ECO melhor do que qualquer pessoa fora da Facção.",
+  "motivacoes": [
+    "Proteger as fórmulas",
+    "Manter-se no fundo",
+    "Fugir pelo túnel de serviço se perder"
+  ],
+  "dificuldade": 11,
+  "limiarMaior": 9,
+  "limiarGrave": 13,
+  "pv": 7,
+  "pf": 5,
+  "atq": 4,
+  "ataques": [
+    {
+      "id": "a1",
+      "nome": "Frasco Ácido",
+      "alcance": "médio (área 1)",
+      "dano": "1d8+3 ácd"
+    }
+  ],
+  "experiencias": [
+    {
+      "id": "e1",
+      "nome": "Alquimia",
+      "bonus": 4
+    },
+    {
+      "id": "e2",
+      "nome": "Conhecimento de ECO",
+      "bonus": 4
+    },
+    {
+      "id": "e3",
+      "nome": "Improvisação",
+      "bonus": 2
+    }
+  ],
+  "habilidades": [
+    {
+      "id": "h1",
+      "nome": "Fumaça de ECO",
+      "tipo": "acao",
+      "descricao": "Custo 1 Medo. Lança frasco que cria névoa âmbar densa em área de alcance 2 por 2 rodadas. Quem iniciar o turno na névoa rola CD Acuidade 12 ou ganha 1 Estresse."
+    },
+    {
+      "id": "h2",
+      "nome": "Fórmula de Emergência",
+      "tipo": "passiva",
+      "descricao": "Ao atingir o Limiar Maior, bebe um composto próprio e recupera 3 PV imediatamente. Uma vez por combate."
+    }
+  ],
+  "criadoEm": "2026-04-24T13:28:35.167379+00:00",
+  "atualizadoEm": "2026-04-24T13:28:35.167379+00:00"
+}

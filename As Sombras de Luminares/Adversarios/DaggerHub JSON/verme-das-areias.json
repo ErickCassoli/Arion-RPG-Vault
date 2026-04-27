@@ -1,0 +1,52 @@
+{
+  "id": "verme-das-areias",
+  "slug": "verme-das-areias",
+  "nome": "Verme das Areias",
+  "tipo": "solo",
+  "patamar": 1,
+  "descricao": "Predador de emboscada multi-segmento que emerge sob a presa — boca circular de dentes em anéis concêntricos, pele cinza-pedra cicatrizada.",
+  "motivacoes": ["emboscar", "engolir", "submergir e ressurgir", "proteger território"],
+  "dificuldade": 12,
+  "limiarMaior": 12,
+  "limiarGrave": 18,
+  "pv": 22,
+  "pf": 6,
+  "atq": 6,
+  "ataques": [
+    { "nome": "Mordida", "alcance": "corpo a corpo", "dano": "2d8+3 fís" },
+    { "nome": "Cuspe Ácido", "alcance": "distante", "dano": "1d10+2 fís + 1d4 ácido" },
+    { "nome": "Caudada em Área", "alcance": "próximo", "dano": "1d8+2 fís" }
+  ],
+  "habilidades": [
+    {
+      "nome": "Criatura Multi-Segmento",
+      "tipo": "passiva",
+      "descricao": "o Verme tem três partes destrutíveis: Cabeça (PV 10, Evasão 14), Corpo (PV 22, Evasão 12 — este é o alvo principal) e Cauda (PV 8, Evasão 15). PCs declaram qual parte atacam. Cabeça destruída = perde Cuspe Ácido. Cauda destruída = perde Caudada em Área. Morre quando Corpo chega a 0 PV."
+    },
+    {
+      "nome": "Tremor Sob os Pés",
+      "tipo": "acao",
+      "descricao": "gaste 1 Ponto de Medo. O Verme submerge e ressurge em outro ponto do campo. Todos os PCs no raio de 5m do ponto de emersão fazem CD Agilidade 12 ou ficam Prostrados."
+    },
+    {
+      "nome": "Engolir",
+      "tipo": "acao",
+      "descricao": "gaste 2 Pontos de Medo. Após uma Mordida que reduz um PC a 0 PV, em vez de matar, o Verme engole o PC. O PC está vivo dentro (toma 1d6 ácido por rodada) e pode atacar o Corpo de dentro — cada dano conta em dobro para o limiar interno. Sair: CD Força 14 + ação."
+    },
+    {
+      "nome": "Guincho Perfurante",
+      "tipo": "acao",
+      "descricao": "gaste 2 Pontos de Medo. O Verme solta um guincho que atravessa as paredes. Todos os PCs fazem CD Instinto 12 ou ganham 1 Ponto de Estresse + ação desvantajosa no próximo turno."
+    },
+    {
+      "nome": "Explosão de Cascalho",
+      "tipo": "acao",
+      "descricao": "gaste 3 Pontos de Medo. O Verme ergue a cauda inteira e bate no chão. Pedras soltas caem das paredes da garganta. Área raio 6m: 2d6 fís + cenário muda (pedras soltas pelo chão viram terreno difícil pelo resto do combate)."
+    },
+    {
+      "nome": "Mergulho Final",
+      "tipo": "reacao",
+      "descricao": "se só o Corpo estiver vivo (Cabeça e Cauda destruídas), o Verme tenta fugir — mergulha na areia e aparece 10m adiante. Recebe +2 em Evasão temporariamente."
+    }
+  ]
+}

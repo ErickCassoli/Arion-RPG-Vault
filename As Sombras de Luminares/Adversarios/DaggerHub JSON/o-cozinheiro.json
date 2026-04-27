@@ -1,0 +1,44 @@
+{
+  "id": "o-cozinheiro",
+  "slug": "o-cozinheiro",
+  "nome": "O Cozinheiro",
+  "tipo": "lider",
+  "patamar": 1,
+  "descricao": "Alquimista idoso, cabelos brancos desgrenhados, avental sujo, óculos grossos. Acredita sinceramente que está desenvolvendo uma cura para a dependência de ECO.",
+  "motivacoes": ["proteger o laboratório", "continuar o 'tratamento'", "fugir pela porta de serviço se acuado", "não se render"],
+  "dificuldade": 14,
+  "limiarMaior": 7,
+  "limiarGrave": 14,
+  "pv": 7,
+  "pf": 5,
+  "atq": 4,
+  "ataques": [
+    { "nome": "Mão de Almofariz", "alcance": "corpo a corpo", "dano": "1d12+2 fís" }
+  ],
+  "experiencias": [
+    { "nome": "Alquimia", "bonus": 3 },
+    { "nome": "Comandante", "bonus": 2 }
+  ],
+  "habilidades": [
+    {
+      "nome": "Espadachim",
+      "tipo": "passiva",
+      "descricao": "quando um PC marcar 2 PV ou mais por um ataque corpo a corpo no Cozinheiro, o atacante marca 1 Ponto de Fadiga — a mão de almofariz gira pesada no contragolpe."
+    },
+    {
+      "nome": "Frasco Experimental",
+      "tipo": "acao",
+      "descricao": "gaste 1 Ponto de Fadiga (1/cena). Joga um frasco num ponto em alcance distante. Área de alcance 1: 2d6 ácido nos atingidos."
+    },
+    {
+      "nome": "É Pelo Bem",
+      "tipo": "acao",
+      "descricao": "gaste 1 Ponto de Medo. Escolha um alvo com 3+ inimigos em corpo a corpo. O Cozinheiro inspira os alquimistas e o guarda. Alvo faz CD Presença — falha: 1d4+1 Ponto de Fadiga; sucesso: 1 Ponto de Fadiga."
+    },
+    {
+      "nome": "Impulso",
+      "tipo": "reacao",
+      "descricao": "quando o Cozinheiro acertar um ataque contra um PC, você ganha 1 Ponto de Medo."
+    }
+  ]
+}

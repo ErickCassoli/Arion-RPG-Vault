@@ -1,0 +1,43 @@
+{
+  "id": "eco-dependente",
+  "nome": "Eco Dependente",
+  "tipo": "comum",
+  "patamar": 1,
+  "descricao": "Pessoa em estágio avançado de dependência de ECO. Não é um monstro — é uma vítima. As veias brilham em âmbar-pálido; os olhos perdem foco. A energia corrompeu seus reflexos.",
+  "motivacoes": [
+    "Reagir a movimento e barulho",
+    "Pode ser estabilizado com cuidado genuíno",
+    "Não tem intenção consciente"
+  ],
+  "dificuldade": 10,
+  "limiarMaior": 8,
+  "limiarGrave": 12,
+  "pv": 8,
+  "pf": 2,
+  "atq": 3,
+  "ataques": [
+    {
+      "id": "a1",
+      "nome": "Garras Luminosas",
+      "alcance": "corpo-a-corpo",
+      "dano": "1d6+2 mág"
+    }
+  ],
+  "experiencias": [],
+  "habilidades": [
+    {
+      "id": "h1",
+      "nome": "Pulso de Eco",
+      "tipo": "passiva",
+      "descricao": "Quando atingido por qualquer dano, emite um clarão involuntário. Todos a alcance 1 rolam CD Presença 12 ou ganham 1 Estresse."
+    },
+    {
+      "id": "h2",
+      "nome": "Grito da Luz",
+      "tipo": "passiva",
+      "descricao": "Quando derrotado, libera um flash brilhante. Todos a alcance 2 rolam CD Instinto 11 ou ficam Ofuscados por 1 rodada. Deixa um frasco de ECO no chão."
+    }
+  ],
+  "criadoEm": "2026-04-24T13:28:35.167379+00:00",
+  "atualizadoEm": "2026-04-24T13:28:35.167379+00:00"
+}
